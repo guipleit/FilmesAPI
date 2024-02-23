@@ -2,7 +2,7 @@
 
 API RESTful desenvolvida em ASP.NET
 
-Tecnologias usadas: \
+Tecnologias utilizadas: \
 C# \
 ASP.NET \
 Entity Framework \
