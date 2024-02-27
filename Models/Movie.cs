@@ -15,5 +15,6 @@ public class Movie
     public string Title { get; set; }
     [MaxLength(50)]
     public string Description { get; set; }
-    
+    public virtual ICollection<Session> Sessions { get; set; }
+
 }

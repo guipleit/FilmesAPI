@@ -6,7 +6,5 @@ namespace FilmesAPI.Data.Dtos
     {
         public string Street { get; set; }
         public int Number { get; set; }
-
-        public int AddressId { get; set; }
     }
 }

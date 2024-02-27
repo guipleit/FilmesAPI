@@ -9,4 +9,5 @@ public class ReadMovieDto
     public string Title { get; set; }
     public string Description { get; set; }
     public DateTime QueryTime { get; set; } = DateTime.Now;
+    public ICollection<ReadSessionDto> Sessions { get; set; }
 }
